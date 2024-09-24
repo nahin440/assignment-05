@@ -19,15 +19,15 @@
 
 </head>
 <body class="relative">
-    <header class="mt-0 md:relative">
-        <nav class="bg-stone-200 md:fixed w-full top-0  py-8 ">
-            <div class="nav-div  md:flex justify-evenly items-center">
+    <header class="mt-0 relative">
+        <nav class="bg-stone-200 fixed w-full top-0 py-4 md:py-8 ">
+            <div class="nav-div  flex justify-evenly items-center">
                 <div class="flex justify-center">
                     <a href="./blog.html"><button class="nav-btn bg-lime-400 px-8 py-3 rounded-lg font-bold btn-ghost ">Blog</button></a>
                 </div>
-                <div class="nav-donate-div md:my-0 my-5 flex items-center justify-center gap-2">
-                    <img src="./assets/logo.png" alt="">
-                    <h5 class="font-bold text-xl">Donate Bangladesh</h5>
+                <div class="nav-donate-div md:my-0 my-5 grid items-center justify-center gap-2">
+                    <img src="./assets/logo.png" alt="" class=" hidden md:block">
+                    <h5 class="font-bold  hidden md:block text-xl">Donate Bangladesh</h5>
                 </div>
                 <div class="nav-balance-div p-2 bg-slate-200 rounded-lg border border-slate-300 gap-2 flex items-center justify-center font-bold text-xl">
                     <img src="./assets/coin.png" alt="">
@@ -40,8 +40,8 @@
 
 
 
-        <div class="md:relative"></div>
-            <div class="button-main flex gap-10 md:fixed w-full   py-8 justify-center backdrop-blur-sm bg-white/50  md:mt-24 ">
+        <div class="relative"></div>
+            <div class="button-main flex gap-10 fixed w-full py-3  md:py-8 justify-center backdrop-blur-sm bg-white/50 mt-[-95px]  md:mt-24 ">
 
                 <div>
                     <button id="donation" class="nav-btn border border-black bg-lime-400 px-8 py-3 rounded-lg font-bold btn-ghost ">Donate</button>
@@ -88,7 +88,7 @@
 
 
 
-        <div id="donation-one-container" class="md:flex justify-center  my-8 border border-stone-300 shadow-lg rounded-lg p-8 items-center mx-10 gap-10">
+        <div id="donation-one-container" class="md:flex md:mt-0 mt-44 justify-center  my-8 border border-stone-300 shadow-lg rounded-lg p-8 items-center mx-10 gap-10">
             <div class=" ">
                 <img src="./assets/noakhali.png" alt="" class="w-[2440px] mx-auto">
             </div>
