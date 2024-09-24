@@ -206,7 +206,7 @@ document.getElementById('donate-now-btn-two').addEventListener('click',function(
 })
 
 
-] 
+
 document.getElementById('donate-now-btn-three').addEventListener('click',function(event){
     event.preventDefault();
     const donateAmountt=document.getElementById('donate-amount-three');
@@ -257,7 +257,7 @@ document.getElementById('donate-now-btn-three').addEventListener('click',functio
 
 })
 
-]
+
 document.getElementById('donate-now-btn-three').addEventListener('click',function(){
     const donateMoney=document.getElementById('donate-money-three').value;
     const donateMoneyNumber=parseFloat(donateMoney);
