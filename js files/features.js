@@ -108,9 +108,9 @@ document.getElementById('donation').addEventListener('click',function(){
         const div=document.createElement('div');
     
         div.innerHTML=`
-         <div class="w-full px-5 py-4 border-gray-600 border-2 rounded-2xl mt-4">
+         <div class="w-full px-5 py-4 border-gray-600  border rounded-2xl mt-4">
           <h1 class="text-2xl"> ${donateMoneyNumber} BDT is donated for Flood at Noakhali, Bangladesh.</h1>
-          <p class="pt-3">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
+          <p class="pt-3 text-sm">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
           </div>
         `
         const container= document.getElementById('donation-history-container');
@@ -196,9 +196,9 @@ document.getElementById('donation').addEventListener('click',function(){
         const div=document.createElement('div');
     
         div.innerHTML=`
-         <div class="w-full px-5 py-4 border-gray-600 border-2 rounded-2xl mt-4">
+         <div class="w-full px-5 py-4 border-gray-600   border rounded-2xl mt-4">
           <h1 class="text-2xl"> ${donateMoneyNumber} BDT is donated for Flood Relief in Feni,Bangladesh</h1>
-          <p class="pt-3">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
+          <p class="pt-3 text-sm">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
           </div>
         `
         const container= document.getElementById('donation-history-container');
@@ -265,9 +265,9 @@ document.getElementById('donation').addEventListener('click',function(){
         const div=document.createElement('div');
     
         div.innerHTML=`
-         <div class="w-full px-5 py-4 border-gray-600 border-2 rounded-2xl mt-4">
+         <div class="w-full px-5 py-4 border-gray-600   border rounded-2xl mt-4">
           <h1 class="text-2xl"> ${donateMoneyNumber} BDT donate for Injured in the Quota Movement</h1>
-          <p class="pt-3">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
+          <p class="pt-3 text-sm">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
           </div>
         `
         const container= document.getElementById('donation-history-container');
@@ -336,9 +336,9 @@ document.getElementById('donation').addEventListener('click',function(){
         const div=document.createElement('div');
     
         div.innerHTML=`
-         <div class="w-full px-5 py-4 border-gray-600 border-2 rounded-2xl mt-4">
-          <h1 class="text-2xl"> ${donateMoneyNumber} BDT Donate for Flood at As Sunnah Foundation</h1>
-          <p class="pt-3">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
+         <div class="w-full px-5 py-4 border-gray-600 border  rounded-2xl mt-4">
+          <h1 class="text-2xl"> ${donateMoneyNumber} BDT Donate for Flood at Cox's Bazar flood crisis</h1>
+          <p class="pt-1 text-sm">Date:${formattedDate} Time:${formattedTime} GMT +0600 (Bangladesh Standard Time)</p>
           </div>
         `
         const container= document.getElementById('donation-history-container');
