@@ -63,12 +63,12 @@ document.getElementById('donate-now-btn').addEventListener('click',function(){
 
     const donateMoney=document.getElementById('donate-money').value;
     const donateMoneyNumber=parseInt(donateMoney);
-    console.log(donateMoneyNumber);
+    
 
     
 
 
-    if( donateMoneyNumber > 0|| donateMoneyNumber ==="number"  ){
+    if( donateMoneyNumber > 0|| donateMoneyNumber ==="number" || donateMoneyNumber <= amountNumber  ){
         const leftAmount=amountNumber-donateMoneyNumber;
 
         amount.innerText=leftAmount;
